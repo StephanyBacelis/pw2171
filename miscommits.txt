@@ -1,0 +1,17 @@
+commit 7836701396fe6f39f911b2b88a3d676c59c883e8
+Author: StephanyBacelis <sttephyblz@hotmail.com>
+Date:   Thu Feb 16 14:27:25 2017 -0700
+
+    Cambio en el archivo
+
+commit d241505193c1a0a41786465d58351f5d8da755fc
+Author: StephanyBacelis <sttephyblz@hotmail.com>
+Date:   Wed Feb 15 14:20:09 2017 -0700
+
+    Hola que hace
+
+commit 8cf3f2d80068ffcc01da879a4cb8a882e18a7343
+Author: CCDM07 <ccdm07@la-iMac-de-CCDM07.local>
+Date:   Tue Feb 14 14:49:07 2017 -0700
+
+    inicio
