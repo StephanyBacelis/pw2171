@@ -6,3 +6,7 @@ d
 asd
 as
 ddas
+
+ctrl + espacio para el autocompletado.
+
+command + shift + 7 - auto comentario
