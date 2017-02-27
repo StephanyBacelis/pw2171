@@ -1,12 +1,35 @@
-zdasdasasdasd
 
-sad
-as
-d
-asd
-as
-ddas
+consorcio
 
 ctrl + espacio para el autocompletado.
 
 command + shift + 7 - auto comentario
+
+--
+
+HTML5 incluye:
+Video
+Audio
+Canvas(dibujar)
+Guardar datos en navegador
+etiquetas semánticas -> son para los SEO
+
+ejemplos:
+header
+nav
+etc.
+
+SEO -> Search engine optimization
+
+www3c
+html4 es el actual aprobado
+
+robots.txt - > rutas relativas o carpetas que no quieres que el buscador indexe
+O sea que no quieres que lo encuentre google.
+
+
+no meter secciones dentro de otra seccion
+no meter seccion dentro de articulos
+
+
+Mobile first
