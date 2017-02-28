@@ -33,3 +33,8 @@ no meter seccion dentro de articulos
 
 
 Mobile first
+
+CSS = Hojas de estilo en cascada = maquetado = maquetacion
+
+html = estructura + contenido
+html + diseño = css3

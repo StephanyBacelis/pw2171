@@ -1,0 +1,24 @@
+/*
+Orden de los elementos:
+1. Pseudo-elementos
+  Contiene atributos
+2. Etiquetas <etiqueta>
+  Contiene atributos
+3. Identificadores
+  Contiene atributos
+4. Clases
+  Contiene atributos
+5.Elemento de responsive design (diseño adaptativo)
+  Contiene atributos
+
+Todos ellos en orden alfabético,
+tanto elementos como atributos.
+*/
+body{
+  //atributo:valor;
+  background: hotpink;//rgb(40, 156, 142) - Letras o numeros iguales da gris
+  border: 1px solid red;
+  color: white;
+  font-size: 16px; //px,em,%. La medida estandar es 16px
+  max-width: 1024px;
+}
