@@ -13,12 +13,47 @@ Orden de los elementos:
 
 Todos ellos en orden alfabético,
 tanto elementos como atributos.
+
+Letras o numeros iguales da gris
+
+Color picker: cmd + shift + c or ctrl + alt + c
+
 */
 body{
   //atributo:valor;
-  background: hotpink;//rgb(40, 156, 142) - Letras o numeros iguales da gris
+  background: rgb(40, 156, 142);
   border: 1px solid red;
   color: white;
-  font-size: 16px; //px,em,%. La medida estandar es 16px
+  font-size: 16px; /*px,em,%. La medida estandar es 16px*/
   max-width: 1024px;
+  margin: 0px auto;
+}
+
+header{
+  text-align: center; /*está moviendo lo que está dentro de la caja*/
+  border: 1px solid blue;
+}
+
+header img{
+  float: right;
+  width: 150px;
+  /*Si quieres mover la caja con su contenido es margin,
+  si quieres agrandar el tamaño que ocupa la caja es padding
+  margin: top right bottom left
+  */
+  margin: -70px 20px 0px 0px;
+}
+
+/*
+Caja
+Block es el 100% del ancho de la pantalla*/
+header nav ul li{
+  /*border: 1px solid tomato;*/
+  border-radius: 25px;
+  background: rgb(59, 209, 205);
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 0px 10px 0px 0px;
+  width: 84px;
+  color: white;
 }
