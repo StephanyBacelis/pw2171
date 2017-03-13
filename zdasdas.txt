@@ -38,3 +38,19 @@ CSS = Hojas de estilo en cascada = maquetado = maquetacion
 
 html = estructura + contenido
 html + diseño = css3
+
+
+En un formulario se captura la información.
+
+
+Get: Se van a ir los datos a traves de la url y son visibles
+
+El signo de interrogacion significa primer parametro
+
+Espacio es %20
+
+Del segundo parametro en adelante es &
+
+validar entradas con expresiones regulares (pattern)
+
+post no envían los datos en el url
