@@ -54,3 +54,13 @@ Del segundo parametro en adelante es &
 validar entradas con expresiones regulares (pattern)
 
 post no envían los datos en el url
+
+
+No utilizar las fuentes de la maquina por default.
+Utilizar gratuitas e internas.
+
+Deben ser sans seriff.
+
+La serif tiene adornos :v
+
+fonts.google.com
