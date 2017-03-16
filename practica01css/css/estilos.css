@@ -36,3 +36,51 @@ form{
   margin-top: -35px;
   margin-right: 5px;
 }
+
+form input{
+  border-radius: 5px;
+}
+
+form input[type="button"]{
+  background: green;
+  color: white;
+}
+/*
+Para mover el contenido se usa el text align
+Para mover la caja es el margin 0 auto
+*/
+#seccion01 article{
+  /*border: 1px solid red;*/
+  text-align: center;
+}
+
+#seccion01 article img{
+  border: 5px solid rgba(111,111,111,0.2);
+  width: 98%;
+  margin-top: 10px;
+}
+
+#seccion02 article{
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.unaSeccion{
+  font-size: 4.5em;
+  font-family: 'Oswald', sans-serif;
+}
+
+.otraSeccion{
+  font-size: 2.5em;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.otraSeccion,.unaSeccion{
+  font-weight: bold;
+}
+
+#seccion02 article input[type="submit"]{
+  color: blue;
+  margin-left: 48%;
+}
