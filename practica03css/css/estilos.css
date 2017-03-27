@@ -29,7 +29,9 @@ header span{
 
 header nav{
   margin-top: 50px;
-  background: #F88743;
+  background: linear-gradient(to bottom,
+    #f88743 0%, #ebd1c5 20%, #d9490b 50%,#d9490b 100%);
+  border-radius: 5px;
 }
 
 header nav ul{
@@ -50,8 +52,28 @@ header nav ul li{
 section{
   margin-left: 15px;
 }
+section article{
+  display: inline-block;
+}
+#article01{
+  border: 1px solid blue;
+  width: 60%;
+}
+
+#imgslider{
+  width: 95%;
+}
 
 #article01 article{
   border-bottom: 1px solid gray;
-  width: 62%;
+  width: 95%;
+}
+
+#article02 {
+  border: 1px solid red;
+  width: 30%;
+}
+
+#article02 img{
+  width: 49%;
 }
