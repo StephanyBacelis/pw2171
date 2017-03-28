@@ -56,7 +56,7 @@ section article{
   display: inline-block;
 }
 #article01{
-  border: 1px solid blue;
+
   width: 60%;
 }
 
@@ -69,11 +69,79 @@ section article{
   width: 95%;
 }
 
-#article02 {
-  border: 1px solid red;
-  width: 30%;
+#art01art2{
+  margin-top: 15px;
+  padding-bottom: 20px;
 }
 
-#article02 img{
+#titulo{
+  font-size: 2em;
+  color: gray;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+  margin-left: 5px;
+}
+
+#imgpost{
+  margin-top: 12px;
+  vertical-align: middle;
+  border: 10px solid gray;
+}
+
+#fecha{
+  background: #FAFAFA;
+  padding-right: 100px;
+  position: relative;
+  top: 12px;
+  vertical-align: top;
+}
+
+#leermas{
+  background: gray;
+  color: white;
+  border-radius: 5px;
+  padding: 5px;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
+#lorem{
+  border: 1px solid red;
+  font-size: .8em;
+
+  font-family: 'Roboto', sans-serif;
+}
+
+#article02 {
+  width: 35%;
+  margin-top: 30px;
+  vertical-align: top;
+
+}
+
+#art02art1 img{
   width: 49%;
+  position: relative;
+  top: 30px;
+}
+
+#art02art1{
+  border: 1px solid gray;
+  border-radius: 10px;
+  /*padding: top right bottom left
+    padding: top and bottom right and left
+    padding: top right and left bottom
+  */
+  padding: 0px 3px 40px 3px;
+}
+
+#art02art1 span, #art02art2 span, #art02art3 span {
+  background: linear-gradient(to bottom,
+    #f88743 0%, #ebd1c5 20%, #d9490b 50%,#d9490b 100%);
+  border-radius: 15px;
+  padding: 10px 40.5%;
+  position: relative;
+  margin-left: -4px;
+  top: 8px;
+  color: white;
 }
