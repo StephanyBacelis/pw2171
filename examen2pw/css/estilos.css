@@ -1,0 +1,141 @@
+body{
+  font-size: 16px;
+  margin: 0 auto;
+  font-family: 'Muli', sans-serif;
+}
+
+#firstbike{
+  margin-left: 20px;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+.logos{
+  float:right;
+  position: relative;
+  top: -180px;
+  margin-right: 8px;
+}
+
+#buy{
+  position: relative;
+  left: 750px;
+  top: -50px;
+}
+
+#gotoshop{
+  position: relative;
+  top: -120px;
+  left: 740px;
+}
+
+header{
+  border-bottom: 1px dashed gray;
+}
+
+header ul{
+  margin-left: -20px;
+
+}
+header ul li{
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 20px;
+}
+section article{
+  display: inline-block;
+  vertical-align: top;
+}
+
+#a1{
+  width: 60%;
+  margin-left: 15px;
+}
+
+#a1art1{
+  border-bottom: 1px dashed lightgray;
+}
+
+#a1art1 span{
+  font-size: 5.5em;
+  font-weight: bold;
+}
+
+#a1art2{
+  margin-top: 35px;
+}
+
+#a1art2 span{
+  font-size: 1.8em;
+  color: gray;
+}
+
+#a1art2 img{
+  margin: 40px 20px 30px 0px;
+  vertical-align: top;
+  width: 45%;
+}
+
+#spanverde{
+  color: #87E266;
+}
+
+#a2{
+  width: 30%;
+  margin-left: 0px;
+  padding-right: 70px;
+
+}
+
+#bike{
+  position: relative;
+  width: 100%;
+  left: 150px;
+  top:100px;
+}
+
+#fiveyears{
+  position: relative;
+  bottom: -60px;
+}
+
+footer{
+  margin-left: 20px;
+  padding-right: 150px;
+}
+
+footer article{
+  margin-left: 10px;
+}
+
+footer article img{
+  vertical-align: middle;
+
+  margin-left: 0px;
+}
+
+#footerart2 article{
+  display: inline-block;
+  vertical-align: top;
+  color: gray;
+  width: 15%;
+  margin-right: 15px;
+  font-size: 1em;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+#footerart1 span{
+  color: black;
+  font-family: 'Muli', sans-serif;
+}
+
+#footerart2 article p{
+  margin-top: 5px;
+  border-bottom: 1px solid lightgray;
+  padding-right: 105px;
+}
+
+#footerart2 article span{
+  padding-bottom: 10px;
+  font-family: 'Muli', sans-serif;
+}
