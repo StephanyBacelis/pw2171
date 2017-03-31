@@ -3,9 +3,157 @@ body{
   width: 1024px;
   margin: 0 auto;
 }
+header{
+  margin-top: 5px;
+}
+header input{
+  margin-top: 3px;
+  margin-left: 90px;
+  width: 150px;
+  border-radius: 0px;
+  text-align: right;
+  color: gray;
+  padding:5px;
+}
+header img{
+  float: center;
+  vertical-align: middle;
+  width: 70%;
+  margin-top: -2px;
+  margin-left: 25px;
+}
+
+section{
+  margin-top: 20px;
+
+  background: #2F2F2F;
+}
+
+section article{
+  display: inline-block;
+}
+
+
+#art1 ul li{
+  list-style-type: none;
+  font-family: 'Work Sans', sans-serif;
+  color: gray;
+}
+
+#art1 ul li a{
+  color: white;
+}
+
+#art1{
+  width: 25%;
+  background: #2F2F2F;
+  vertical-align: top;
+}
+
+#art1 img{
+  width: 70%;
+  margin-top: 15px;
+}
+
+
+#art2{
+  margin-left: 10px;
+  margin-top: 15px;
+  width: 70%;
+  background: white;
+}
+
+#art2 article{
+  margin-right: -5px;
+  width: 21%;
+  display: inline-block;
+  vertical-align: top;
+
+}
+
+#a2e1{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #A6DB5C;
+}
+
+#a2e2{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 16px;
+  padding-bottom: 1px;
+  background: #535353;
+}
+
+#a2e3{
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #E3002E;
+}
+
+#a2e4{
+  padding-top: 15px;
+  padding-left: 10px;
+  padding-right: 15px;
+  background: #E5E5E5;
+}
+
+#a2e1, #a2e2, #a2e3, #a2e4{
+  color: white;
+}
+
+.titulo{
+  font-size: 1.5em;
+}
+
+.t2{
+  color: gray;
+
+}
+
+.texto{
+  font-size: .7em;
+}
+
+.titulo, .texto, .moreon, .ir{
+  font-family: 'Archivo Narrow', sans-serif;
+}
+
+.moreon{
+  font-weight: bold;
+}
+.m1{
+  font-size: .7em;
+}
+.ir{
+  background: gray;
+  opacity: .5;
+  padding: 5px 10px;
+  float: right;
+  margin-right: -15px;
+}
+
+.i1{
+  margin-top: 15px;
+}
+
+.i2{
+  margin-top: 32px;
+}
 
 /*#a{
   text-decoration: underline;
   color: blue;
 }*/
+
+/*
+
+
+    font-family: 'Work Sans', sans-serif;
+
+    font-family: 'Archivo Narrow', sans-serif;
+
+*/
 /*ABAJO DEL NEWS DE COLORES HAY UN DASHED*/
