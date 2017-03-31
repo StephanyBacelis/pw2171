@@ -143,6 +143,32 @@ section article{
   margin-top: 32px;
 }
 
+footer{
+  background: #333333;
+
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+footer article{
+  padding-top: 20px;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+footer article img{
+  width: 70%;
+  margin-left: 85px;
+  margin-bottom: 15px;
+}
+
+.border1{
+  border-top: 2px dashed gray;
+  padding-right: 150px;
+  margin-left: 15px;
+  color: gray;
+}
+
 /*#a{
   text-decoration: underline;
   color: blue;
