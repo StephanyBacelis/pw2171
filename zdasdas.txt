@@ -64,3 +64,24 @@ Deben ser sans seriff.
 La serif tiene adornos :v
 
 fonts.google.com
+
+
+-------
+
+JavaScript
+
+Lenguaje de programación
+
+Validaciones del lado del cliente
+
+Agrega otra capa de programacion que permite el manejo de formularios
+
+*Se integra con HTML para validaciones.
+*LiveScript (menos poderoso)
+*Sintaxis JAVA. (if, for, while, etc..)
+*Punto y coma es opcional (recomendado)
+*Elimina el ocultamiento (Se mira el codigo del lado del cliente)
+*Existe JavaScript del lado del servidor en distintas aplicaciones.
+
+
+Funcion anonima, funcion que sse asigna a una variable y no tiene nombre
