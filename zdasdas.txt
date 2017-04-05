@@ -85,3 +85,24 @@ Agrega otra capa de programacion que permite el manejo de formularios
 
 
 Funcion anonima, funcion que sse asigna a una variable y no tiene nombre
+
+
+---
+Node.js es un motor
+
+npm junto con node
+https://www.npmjs.com/
+Documentacion de nodejs
+
+https://nodejs.org/es/
+
+usar main.js en lugar de index.js porque se puede confundir
+
+npm install electron --save-dev
+instala electron y lo guarda en la carpeta
+y es de desarrollo
+
+sudo npm install electron-packager --save-dev
+
+scripts:
+"start": "electron .",
