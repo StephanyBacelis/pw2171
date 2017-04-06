@@ -14,15 +14,19 @@ let PantallaPrincipal;
 // main.js se carga en memoria.
 function muestraPantallaPrincipal() {
   PantallaPrincipal = new BrowserWindow({
-    width:1024,
-    height:768
+    width:330,
+    height:435
   });
 
   PantallaPrincipal.on('closed', function (){
     PantallaPrincipal = null;
   });
 
-  PantallaPrincipal.loadURL('http://platzi.com');
+  PantallaPrincipal.loadURL(url.format({
+    pathname: path.join(__dirname, 'index.html'),
+    protocol: 'file',
+    slashes: true
+  }));
   PantallaPrincipal.show();
 }
 
