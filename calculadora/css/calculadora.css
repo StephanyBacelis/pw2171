@@ -26,6 +26,6 @@ form input[type="text"]{
 
 form input[type="button"]{
   background: lightgreen;
-  color: white;
+  color: black;
   width: 50px;
 }
