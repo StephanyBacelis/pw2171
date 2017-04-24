@@ -112,3 +112,7 @@ Cuando cambias de SO entonces borras la carpeta
 node_modules y ejecutas el npm install
 y se instalan todas las dependencias que estén agregadas
 al package.json
+
+instalar como ya produccion:
+npm install --save electron-require
+electron-packager . --overwrite
