@@ -116,3 +116,8 @@ al package.json
 instalar como ya produccion:
 npm install --save electron-require
 electron-packager . --overwrite
+
+
+https://randomuser.me/
+
+↑ ↑ ↓ ↓ ← → ← → B A
