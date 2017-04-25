@@ -27,6 +27,8 @@ function muestraPantallaPrincipal() {
     protocol: 'file',
     slashes: true
   }));
+  //Para ver los errores.
+  //PantallaPrincipal.webContents.openDevTools();
   PantallaPrincipal.show();
 }
 

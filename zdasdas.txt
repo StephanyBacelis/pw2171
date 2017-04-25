@@ -121,3 +121,5 @@ electron-packager . --overwrite
 https://randomuser.me/
 
 ↑ ↑ ↓ ↓ ← → ← → B A
+
+json = javascript object notation
