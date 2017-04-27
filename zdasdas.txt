@@ -123,3 +123,17 @@ https://randomuser.me/
 ↑ ↑ ↓ ↓ ← → ← → B A
 
 json = javascript object notation
+
+http://developer.marvel.com/
+choosealicense.com
+------
+
+npm init
+
+package.json
+en start agregar: "start": "electron .",
+
+npm install electron --save-dev
+npm install electron-require --save-dev
+npm install jquery --save-dev
+npm install electron-packager --save-dev

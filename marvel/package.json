@@ -1,0 +1,23 @@
+{
+  "name": "marvel",
+  "version": "1.0.0",
+  "description": "Personajes de Marvel",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "marvel",
+    "personajes",
+    "hola"
+  ],
+  "author": "SttephyBlz",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^1.6.6",
+    "electron-packager": "^8.6.0",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  }
+}
