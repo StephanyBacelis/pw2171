@@ -25,7 +25,7 @@ body{
 }
 
 #imgFoto{
-  border: 15px solid blue;
+  border: 15px solid rgb(52, 191, 158);
   border-radius: 150px;
   display: none;
   width: 150px;
