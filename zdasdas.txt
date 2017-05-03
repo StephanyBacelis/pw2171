@@ -129,6 +129,8 @@ http://developer.marvel.com/
 choosealicense.com
 https://jsonlint.com/ //JSON VALIDATOR
 http://gateway.marvel.com/v1/public/characters?ts=1&apikey=67788e74df746a1523d8ebb504ee1008&hash=cf5ec9bfa5a156f031a69417cd0e012c&nameStartsWith=
+https://iconverticons.com/
+
 ------
 
 npm init
@@ -136,7 +138,23 @@ npm init
 package.json
 en start agregar: "start": "electron .",
 
+//desarrollador
 npm install electron --save-dev
 npm install electron-require --save-dev
 npm install jquery --save-dev
 npm install electron-packager --save-dev
+npm install asar --save-dev
+
+//produccion
+lalalal --save
+
+-----
+electron-packager . <Nombre de la APP> --overwrite
+//sustituye la carpeta app por app.asar para evitar
+que vean el codigo fuente.
+electron-packager . <Nombre de la APP> --overwrite --asar
+electron-packager . <Nombre de la APP> --overwrite --asar --icon=logo.icns
+
+
+//Para empaquetar.
+npm run paquete
