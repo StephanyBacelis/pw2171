@@ -54,3 +54,7 @@ body{
 #abajoIzquierda{
   width: 18%;
 }
+
+#imgLoader{
+  display:none;
+}

@@ -6,6 +6,13 @@ $ <- significa jquery (es un alias)
 */
 const $ = require('jquery');
 
+//Constantes para imprimir en PDF(ventana que imprimimos)
+const ipc = require('electron').ipcRenderer;
+const btnPDF = document.getElementById('btnPDF');
+btnPDF.addEventListener('click', function(event){
+  ipc.send('print-to-pdf');
+});
+
 var buscarPersonaje = function(){
   var personaje = $('#txtPersonaje').val();
   var url = 'http://gateway.marvel.com/v1/public/characters?ts=1&apikey=67788e74df746a1523d8ebb504ee1008&hash=cf5ec9bfa5a156f031a69417cd0e012c&nameStartsWith='
@@ -21,9 +28,15 @@ var buscarPersonaje = function(){
   url=url+personaje;
 
   $.ajax({
+    beforeSend: function(){
+      $("#imgLoader").show();
+    },
     dataType: "json",
     url: url,
     success: function(response){
+
+      $("#imgLoader").hide();
+
       if(response.code==200){//ok.cat
         $('#imgFoto').show('slow');
         $('#imgFoto').attr('src',
@@ -50,10 +63,23 @@ var buscarPersonaje = function(){
       }
     }
   });
+
+  $("#txtPersonaje").val("");
+  $("#txtPersonaje").focus();
 }
-//hola
+
+var teclaPersonaje = function(tecla){
+  if(tecla.which == 13){
+    buscarPersonaje();
+  }
+}
+
+
 //Posiciona el cursor en el cuadro del texto
 $('#txtPersonaje').focus();
+
+//Evento del botón al presionar Enter
+$("#txtPersonaje").on("keypress", teclaPersonaje);
 
 //Evento del botón btnBuscar-click
 $('#btnBuscar').on('click', buscarPersonaje);
