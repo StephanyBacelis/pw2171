@@ -51,7 +51,7 @@ var buscarPersonaje = function(){
     }
   });
 }
-
+//hola
 //Posiciona el cursor en el cuadro del texto
 $('#txtPersonaje').focus();
 
