@@ -190,17 +190,43 @@ echo es un comando para depuracion
 manda a pantalla y a consola
 
 
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>PHP ejemplo</title>
-  </head>
-  <body>
-    <?php
-      for ($i=0; $i < 10; $i++) {
-        print("Hola PHP <br>");
-      }
-    ?>
-  </body>
-</html>
+bd:
+
+create database pw2171
+
+cotejamiento: utf8_general_ci
+
+--todas las tablas se deben poner en plural
+CREATE TABLE `pw2171`.`usuarios`
+( `usuario` CHAR(20) NOT NULL ,
+`nombre` VARCHAR(90) NOT NULL ,
+`clave` CHAR(32) NOT NULL ,
+`departamento` INT NOT NULL ,
+`vigencia` INT NOT NULL )
+ENGINE = InnoDB;
+
+si se requiere velocidad usar char
+pero si quieres espacio varchar
+
+para una llave primaria o es char o int.
+
+
+http://www.md5.cz/ <- generar clave cifrada
+
+12345 : 827ccb0eea8a706c4c34a16891f84e7b
+
+
+INSERT INTO `pw2171`.`usuarios`
+(`usuario`, `nombre`, `clave`,
+`departamento`, `vigencia`) VALUES
+('pw', 'Usuario Ejemplo',
+'827ccb0eea8a706c4c34a16891f84e7b', '1', '1');
+
+ALTER TABLE `usuarios` ADD `identificador` INT NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`identificador`);
+
+
+cursor: variable que apunta al registro actual
+cuando no hay nada apunta a los dos (BoF y EoF)
+
+al principio apunta a la marca: BOF (Begin of file)
+y al final apunta a la marca: EoF (End of File)
