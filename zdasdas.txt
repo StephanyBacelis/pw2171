@@ -230,3 +230,6 @@ cuando no hay nada apunta a los dos (BoF y EoF)
 
 al principio apunta a la marca: BOF (Begin of file)
 y al final apunta a la marca: EoF (End of File)
+
+
+getSqlValueString
