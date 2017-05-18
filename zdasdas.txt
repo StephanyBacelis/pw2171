@@ -223,7 +223,7 @@ INSERT INTO `pw2171`.`usuarios`
 '827ccb0eea8a706c4c34a16891f84e7b', '1', '1');
 
 ALTER TABLE `usuarios` ADD `identificador` INT NOT NULL AUTO_INCREMENT FIRST, ADD PRIMARY KEY (`identificador`);
-
+ALTER TABLE `usuarios` ADD INDEX(`usuario`);
 
 cursor: variable que apunta al registro actual
 cuando no hay nada apunta a los dos (BoF y EoF)
@@ -233,3 +233,5 @@ y al final apunta a la marca: EoF (End of File)
 
 
 getSqlValueString
+
+array asociativo: tiene el nombre del campo
