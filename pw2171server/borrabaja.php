@@ -1,8 +1,8 @@
 <?php
 	include("utilerias.php"); //include= incluye todo el documento importado - requiere= solo incluye lo que necesitas D:
 	$conexion = conecta();
-	
-	$u= GetSQLValueString($_POST["txtUsuario"],"text");
+
+	$u= GetSQLValueString($_GET["txtUsuario"],"text");
 
 	$consulta= sprintf("delete from usuarios where usuario=%s", $u);
 	mysql_query($consulta);

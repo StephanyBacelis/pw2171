@@ -1,18 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Acceso al sistema</title>
-</head>
-<body>
-  Proporcione los datos <br>
-  <!--Conviene mandarlo por post porque estáenviando una clave -->
-  <form action="validausuario.php" method="post">
-    <input type="text" name="txtUsuario" id="txtUsuario" placeholder="Usuario"><br>
-    <input type="password" name="txtClave" id="txtClave" placeholder="Clave">
-    <input type="submit" value="Entrar">
-  </form>
-</body>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8">
+		<title>Acceso al sistema</title>
+	</head>
+	<body>
+		Proporcione los datos <br>
+		<form action="validausuario.php" method="post">
+			<input type="text" name="txtUsuario" id="txtUsuario" placeholder="Usuario"> <br>
+			<input type="password" name="txtClave" id="txtClave" placeholder="Clave"> <br>
+			<input type="submit" value="Entrar">
+		</form>
+	</body>
 </html>

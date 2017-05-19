@@ -23,7 +23,8 @@
       $tabla.='<td>'.$registro['nombre'].'</td>';
       $tabla.='<td>'.$registro['departamento'].'</td>';
       $tabla.='<td>'.$registro['vigencia'].'</td>';
-      $tabla.='<td></td>';
+      $tabla.='<td><a href="borrabaja.php?txtUsuario='.$registro['usuario'].'">Baja</a></td>';
+      $tabla.='<td><a href="cambio.php?txtUsuario='.$registro['usuario'].'">Cambio</a></td>';
       $tabla.='</tr>';
     }
   }else{

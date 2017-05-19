@@ -1,16 +1,22 @@
+
 <?php
-  function GetSQLValueString($theValue, $theType,
-    $theDefinedValue = "", $theNotDefinedValue = "")
+  
+  function conecta(){
+    $conexion = mysql_connect("localhost","root",""); //Para distinguir entre conexiones se guarda la dirección
+    mysql_select_db("pw2171");
+    return $conexion;
+  }
+
+  function GetSQLValueString($theValue, $theType, $theDefinedValue = "", $theNotDefinedValue = "") 
   {
     $theValue = get_magic_quotes_gpc() ? stripslashes($theValue) : $theValue;
 
-    $theValue = function_exists("mysql_real_escape_string") ?
-      mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
+    $theValue = function_exists("mysql_real_escape_string") ? mysql_real_escape_string($theValue) : mysql_escape_string($theValue);
 
     switch ($theType) {
       case "text":
         $theValue = ($theValue != "") ? "'" . $theValue . "'" : "NULL";
-        break;
+        break;    
       case "long":
       case "int":
         $theValue = ($theValue != "") ? intval($theValue) : "NULL";
@@ -27,5 +33,5 @@
     }
     return $theValue;
   }
-
+  
 ?>
