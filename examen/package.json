@@ -1,0 +1,26 @@
+{
+  "name": "examen",
+  "version": "1.0.0",
+  "description": "examen",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "clima"
+  ],
+  "author": "SttephyBlz",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^1.6.10",
+    "electron-packager": "^8.7.0",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  },
+  "dependencies": {
+    "electron": "^1.6.10",
+    "electron-require": "^0.3.0",
+    "jquery": "^3.2.1"
+  }
+}
